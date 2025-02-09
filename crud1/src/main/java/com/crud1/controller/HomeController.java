@@ -28,7 +28,7 @@ stuServiceI si;
 public String insertSingleData(@RequestBody Student s)
 {
 	si.saveSingle(s);
-	return "single data inserted";
+	return "single data inserted new record";
 }
 
 @PostMapping("insertlist")
